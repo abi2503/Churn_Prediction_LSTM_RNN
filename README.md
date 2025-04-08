@@ -12,6 +12,32 @@ This project builds an end-to-end deep learning pipeline to predict customer chu
 - 🌐 Optional Streamlit deployment for interactive churn prediction
 - 📦 Complete GitHub structure and documentation
 
+
+## Project Setup
+
+# LSTM-RNN Customer Churn Prediction
+
+This project uses LSTM-RNN to predict customer churn based on their behavioral data over time.
+
+## Requirements:
+- Python 3.7+
+- Install dependencies using `pip install -r requirements.txt`
+
+## Files:
+- `src/`: Contains the model building and prediction scripts.
+- `app/`: Contains a Streamlit app for real-time predictions.
+- `data/`: Contains the dataset and saved models.
+
+## How to Run:
+1. Preprocess and train the model:
+   - Run `python src/model.py` to preprocess the data and train the model.
+   
+2. Make predictions:
+   - Use `python src/predict.py` to load the saved model and make predictions on test data.
+
+3. Deploy Streamlit app:
+   - Run `streamlit run app/streamlit_app.py` to start the web app.
+
 ## 📁 Dataset
 The dataset contains customer records over 12 months with:
 - Customer demographics (credit score, age, gender)
