@@ -22,7 +22,7 @@ The dataset contains customer records over 12 months with:
 ```
 churn-lstm-rnn/
 ├── data/
-│   └── realistic_synthetic_churn_timeseries_realistic_ids.csv
+│   └── Churn_Data.csv
 ├── notebooks/
 │   └── 01_preprocessing.ipynb
 │   └── 02_train_lstm_rnn.ipynb
